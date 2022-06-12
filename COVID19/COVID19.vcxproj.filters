@@ -15,8 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex.c">
+    <ClCompile Include="Utils.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Confirmation_rate.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output_result.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="COIVD19_DATA.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Infor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
